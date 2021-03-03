@@ -11,7 +11,7 @@ composer require gaojie1592/download_network_data_to_local
 
 - 例子一:
 ```php
-use gaojie1592;
+require __DIR__ . '/vendor/autoload.php';
 
 $img = new Download_Network_Data_To_Local(
     // 必要参数:需要下载的网络地址,必须是完整的
@@ -30,7 +30,7 @@ string() "/home/www.github.com/img/filename.gif"
 ```
 - 例子二:
 ```php
-use gaojie1592;
+require __DIR__ . '/vendor/autoload.php';
 
 $img = new Download_Network_Data_To_Local();
 
@@ -50,7 +50,7 @@ string() "/home/www.github.com/img/filename.jpg"
 ```
 - 例子三:
 ```php
-use gaojie1592;
+require __DIR__ . '/vendor/autoload.php';
 
 $img = new Download_Network_Data_To_Local();
 

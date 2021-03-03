@@ -10,5 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "gaojie1592\\": ""
+        }
+    },
+    "require": {
+        "PHP": ">=5.4"
+    }
 }
