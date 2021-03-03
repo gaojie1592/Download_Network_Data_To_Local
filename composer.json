@@ -1,0 +1,14 @@
+{
+    "name": "gaojie1592/download_network_data_to_local",
+    "description": "\u4e0b\u8f7d\u7f51\u7edc\u6570\u636e\u8bc6\u522b\u6587\u4ef6\u540e\u7f00\u540e\u4fdd\u5b58\u5230\u672c\u5730\u5e76\u8fd4\u56de\u672c\u5730\u5730\u5740.Download the network data identification file suffix, save it to the local and return to the local address.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gaojie",
+            "email": "gaojie11@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
