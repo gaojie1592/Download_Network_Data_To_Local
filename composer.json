@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "gaojie1592\\Download_Network_Data_To_Local\\":""
+            "Download_Network_Data_To_Local\\": "Download_Network_Data_To_Local/"
         }
     },
     "require": {
