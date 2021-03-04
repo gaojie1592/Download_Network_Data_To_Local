@@ -11,9 +11,9 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "Download_Network_Data_To_Local\\": "Download_Network_Data_To_Local/"
-        }
+        "files": [
+            "download_network_data_to_local.php"
+        ]
     },
     "require": {
         "PHP": ">=5.4"
