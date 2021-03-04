@@ -1,6 +1,5 @@
 # Download Network Data To Local
-
-[![Latest Stable Version](https://poser.pugx.org/gaojie1592/download_network_data_to_local/v)](//packagist.org/packages/gaojie1592/download_network_data_to_local) [![Total Downloads](https://poser.pugx.org/gaojie1592/download_network_data_to_local/downloads)](//packagist.org/packages/gaojie1592/download_network_data_to_local) [![Latest Unstable Version](https://poser.pugx.org/gaojie1592/download_network_data_to_local/v/unstable)](//packagist.org/packages/gaojie1592/download_network_data_to_local) [![License](https://poser.pugx.org/gaojie1592/download_network_data_to_local/license)](//packagist.org/packages/gaojie1592/download_network_data_to_local)
+[![Latest Stable Version](https://poser.pugx.org/gaojie1592/download_network_data_to_local/v)](//packagist.org/packages/gaojie1592/download_network_data_to_local) [![Total Downloads](https://poser.pugx.org/gaojie1592/download_network_data_to_local/downloads)](//packagist.org/packages/gaojie1592/download_network_data_to_local) [![Coverage Status](https://coveralls.io/repos/github/gaojie1592/Download_Network_Data_To_Local/badge.svg?branch=main)](https://coveralls.io/github/gaojie1592/Download_Network_Data_To_Local?branch=main) [![Latest Unstable Version](https://poser.pugx.org/gaojie1592/download_network_data_to_local/v/unstable)](//packagist.org/packages/gaojie1592/download_network_data_to_local) [![License](https://poser.pugx.org/gaojie1592/download_network_data_to_local/license)](//packagist.org/packages/gaojie1592/download_network_data_to_local)
 
 # 功能说明:
 

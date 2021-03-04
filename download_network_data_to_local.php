@@ -91,7 +91,6 @@ class Download_Network_Data_To_Local
         $this->http_url   = $http_url;
         $this->local_path = $local_path;
         $this->filename   = $filename;
-        return $this;
     }
     /**
      * 开始执行
