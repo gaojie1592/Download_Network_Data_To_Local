@@ -228,6 +228,10 @@ class Download_Network_Data_To_Local
     private function get_hz($data)
     {
         $strInfo = @unpack("C2chars", \substr($data, 0, 2));
+        if (empty($strInfo)) {
+            $this->fileType = 'unknown';
+            return $this;
+        }
         $typeCode = \intval($strInfo['chars1'] . $strInfo['chars2']);
         $this->fileType = isset($this->filetypes[$typeCode]) ? $this->filetypes[$typeCode] : 'unknown';
         return $this;
