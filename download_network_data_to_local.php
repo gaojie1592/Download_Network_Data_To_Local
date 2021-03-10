@@ -101,6 +101,12 @@ class Download_Network_Data_To_Local
         if (empty($this->http_url) || empty($this->local_path)) {
             return false;
         }
+        \clearstatcache();
+        if (!is_dir($this->local_path)) {
+            if (!mkdir($this->local_path, 0777, true)) {
+                return false;
+            }
+        }
         $this->http();
         if (isset($this->http_ret_info_res['http_code']) && $this->http_ret_info_res['http_code'] != 200) {
             return false;
